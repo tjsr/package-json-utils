@@ -1,3 +1,2 @@
-export type SomeType = {
-  foo: string;
-}
+export { getVersionFromPackageJson } from './getVersionFromPackageJson.js';
+export { findPackageJson } from './findPackageJson.js';
