@@ -1,7 +1,7 @@
 {
-  "name": "@tjsr/npm-library-template",
-  "version": "0.0.1",
-  "description": "Template npm project",
+  "name": "@tjsr/package-json-utils",
+  "version": "0.0.0-pre0",
+  "description": "Utils for reading data from package.json",
   "type": "module",
   "main": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -23,17 +23,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/tjsr/express-server-helper.git"
+    "url": "git+https://github.com/tjsr/package-json-utils.git"
   },
   "keywords": [
-    "Express"
+    "Node",
+    "Npm",
+    "package.json"
   ],
   "author": "Tim Rowe <tim@tjsr.id.au>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/tjsr/express-server-helper/issues"
+    "url": "https://github.com/tjsr/package-json-utils/issues"
   },
-  "homepage": "https://github.com/tjsr/express-server-helper#readme",
+  "homepage": "https://github.com/tjsr/package-json-utils#readme",
   "devDependencies": {
     "@tjsr/eslint-config": "github:tjsr/eslint-config#main",
     "rimraf": "^5.0.7",
