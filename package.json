@@ -1,6 +1,6 @@
 {
   "name": "@tjsr/package-json-utils",
-  "version": "0.0.1-0",
+  "version": "0.0.2-0",
   "description": "Utils for reading data from package.json",
   "type": "module",
   "main": "dist/esm/index.js",
