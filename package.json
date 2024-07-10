@@ -39,12 +39,12 @@
   "devDependencies": {
     "@tjsr/eslint-config": "github:tjsr/eslint-config#main",
     "@types/node": "^20.14.10",
-    "rimraf": "^5.0.8",
+    "rimraf": "^6.0.0",
     "tsx": "^4.16.2",
     "typescript": "^5.5.3",
     "vitest": "^1.6.0"
   },
   "dependencies": {
-    "@tjsr/fs-utils": "^0.0.4"
+    "@tjsr/fs-utils": "^0.0.5"
   }
 }
