@@ -1,6 +1,6 @@
 {
   "name": "@tjsr/package-json-utils",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Utils for reading data from package.json",
   "type": "module",
   "main": "dist/esm/index.js",
@@ -15,7 +15,7 @@
   "scripts": {
     "test": "vitest --run && npm run lint",
     "build": "tsc",
-    "build:prod": "tsc && tsc -p tsconfig.cjs.json",
+    "build:dist": "tsc -p tsconfig.publish.json && tsc -p tsconfig.cjs.json",
     "clean": "npx rimraf dist build",
     "clean:all": "npx rimraf dist build node_modules",
     "lint": "eslint --config eslint.config.mjs src/*.ts",
@@ -43,5 +43,8 @@
     "tsx": "^4.16.2",
     "typescript": "^5.5.3",
     "vitest": "^1.6.0"
+  },
+  "dependencies": {
+    "@tjsr/fs-utils": "^0.0.4"
   }
 }
