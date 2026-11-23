@@ -1,2 +1,2 @@
-export { getVersionFromPackageJson } from './getVersionFromPackageJson.js';
-export { findPackageJson } from './findPackageJson.js';
+export { getVersionFromPackageJson } from './getVersionFromPackageJson.ts';
+export { findPackageJson } from './findPackageJson.ts';
