@@ -1,5 +1,6 @@
+import fs from "node:fs";
+
 import { findPackageJson } from "./findPackageJson.js";
-import fs from "fs";
 
 export const getVersionFromPackageJson = async (packageJsonPath?: string|undefined): Promise<string> => {
   if (!packageJsonPath) {
