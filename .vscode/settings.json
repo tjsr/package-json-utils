@@ -33,5 +33,5 @@
   ],
   "js/ts.preferences.importModuleSpecifierEnding": "js",
   "prettier.requireConfig": true,
-  "prettier.configPath": ".prettierrc.json"
+  "prettier.configPath": "prettier.config.mjs"
 }
